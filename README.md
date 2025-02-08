@@ -37,12 +37,13 @@ This Python script automates dataset creation by processing questions through an
 
 ```bash
 pip install python-dotenv openai
+```
 
-Configuration
+###Configuration
 Create .env with your API key:
 
 ini
-Copy
+
 DEEPSEEK_API_KEY=your_api_key_here
 Prepare q.csv with questions in first column:
 
